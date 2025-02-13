@@ -13,7 +13,7 @@
 #define SERVER_END // NIL for Ethernet
 
 #include "ModbusServerTCPtemp.h"
-using ModbusServerEthernet = ModbusServerTCP<WiFiServer, WiFiClient>;
+using ModbusServerEthernet = ModbusServerTCP<NetworkServer, NetworkClient>;
 #endif
 
 #endif
