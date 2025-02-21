@@ -25,16 +25,16 @@
   },
   "dependencies": [
     {
-      "owner": "me-no-dev",
+      "owner": "ESP32Async",
       "name": "AsyncTCP",
-      "version": "*",
-      "platforms": ["espressif32"]
+      "version": "^3.3.5",
+      "platforms": "espressif32"
     },
     {
-      "owner": "me-no-dev",
+      "owner": "ESP32Async",
       "name": "ESPAsyncTCP",
-      "version": "*",
-      "platforms": ["espressif8266"]
+      "version": "^2.0.0",
+      "platforms": "espressif8266"
     },
     {
       "name": "Ethernet",
